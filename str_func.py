@@ -5,4 +5,12 @@ def upwords():
     word = input().upper()
     print(word)
 
+def titlewords():
+    """
+    Функия первой заглавной
+    """
+    words = input().title()
+    print(words)
+    
 upwords()
+titlewords()
